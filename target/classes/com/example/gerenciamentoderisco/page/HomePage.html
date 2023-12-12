@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org"  lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo</h1>
+
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th scope="col">Versão</th>
+            <th scope="col">Data da atualização</th>
+            <th scope="col">Usuário responsável pela atualização</th>
+            <th scope="col">Risco</th>
+            <th scope="col">Dano a ser suportado</th>
+            <th scope="col">Impacto para o Senado</th>
+            <th scope="col">Tipo de Ação</th>
+            <th scope="col">Ação</th>
+            <th scope="col">Unidade Responsável</th>
+            <th scope="col">NUP do Mapa de riscos</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr wicket:id="registros">
+            <th wicket:id="versao" scope="row">1</th>
+            <td wicket:id="dataDaAtualizacao" >25/10/2022 18:46</td>
+            <td wicket:id="usuarioResponsavelPorAtualizacao" >Nome completo do usuário (UNIDADE)</td>
+            <td wicket:id="risco" >1 - Não contratar</td>
+            <td wicket:id="danoASerSuportado">Sem essa contratação a SINFRA ficará impossibilitada de atender as demandas para adequação de espaço físico dentro do CASF.</td>
+            <td wicket:id="impactoParaOSenado">Médio</td>
+            <td wicket:id="tipoDeAcao" >Contingência</td>
+            <td wicket:id="acao">Ação Preventiva 1</td>
+            <td wicket:id="unidadeResponsavel">SINFRA</td>
+            <td wicket:id="nupDoMapaDeRiscos">123456/2023</td>
+        </tr>
+        </tbody>
+    </table>
+
+<!--    <script  type="text/javascript" src="bootstrap.bundle.min.js"></script>-->
+</body>
+</html>
